@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class BookListActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
+public class BookListActivity extends AppCompatActivity  {
     private ProgressBar mLoadingProgress;
     private RecyclerView rvBooks;
 
@@ -66,9 +66,7 @@ public class BookListActivity extends AppCompatActivity implements SearchView.On
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.book_list_menue, menu);
-        final MenuItem searchItem = menu.findItem(R.id.action_search);
-        final SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
-        searchView.setOnQueryTextListener(this);
+
         return true;
     }
 
@@ -83,23 +81,6 @@ public class BookListActivity extends AppCompatActivity implements SearchView.On
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }
-
-    @Override
-    public boolean onQueryTextSubmit(String query) {
-        try {
-            URL bookUrl = ApiUtil.buildUrl(query);
-            new BooksQueryTask().execute(bookUrl);
-        }
-        catch (Exception e){
-            Log.d("Error", e.getMessage());
-        }
-        return false;
-    }
-
-    @Override
-    public boolean onQueryTextChange(String s) {
-        return false;
     }
 
 
