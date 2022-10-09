@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/drawable/book_open.xml" value="0.2" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/drawable/search_button_shape.xml" value="0.189" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/layout/activity_book_detail.xml" value="0.264" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/layout/activity_book_list.xml" value="0.25" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/layout/activity_main.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/layout/activity_search.xml" value="0.4" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/layout/book_list_item.xml" value="0.4" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/layout/test_book_list_item.xml" value="0.264" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/menu/book_list_menue.xml" value="0.1" />
+        <entry key="..\:/Users/Omar/Desktop/Pluralsight/Building Your First Connected App with Android Studio 2018/Books/app/src/main/res/menu/menue.xml" value="0.16458333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
